@@ -1,5 +1,6 @@
 @import url(fontawesome-all.min.css);
-@import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,700,900");
+@import url("https://fonts.googleapis.com/css?family=Libre+Franklin");
+@import url("https://fonts.googleapis.com/css?family=Vesper+Libre");
 
 /*
 	Phantom by HTML5 UP
@@ -99,7 +100,7 @@ input, select, textarea {
 	}
 
 	body {
-		background: #ffffff;
+		background: #F7F9F9;
 	}
 
 		body.is-preload *, body.is-preload *:before, body.is-preload *:after {
@@ -117,7 +118,7 @@ input, select, textarea {
 
 	body, input, select, textarea {
 		color: #585858;
-		font-family: "Source Sans Pro", Helvetica, sans-serif;
+		font-family: "Libre Franklin", Helvetica, sans-serif;
 		font-size: 16pt;
 		font-weight: 300;
 		line-height: 1.75;
@@ -172,6 +173,10 @@ input, select, textarea {
 		line-height: 1.3;
 		margin: 0 0 1em 0;
 		letter-spacing: -0.035em;
+	}
+
+	.inner h2 {
+		color: #F7F9F9;
 	}
 
 		h1 a {
@@ -2528,8 +2533,8 @@ input, select, textarea {
 		button.primary,
 		.button.primary {
 			box-shadow: none;
-			background-color: #585858;
-			color: #ffffff !important;
+			background-color: #F7F9F9;
+			color: #585858 !important;
 		}
 
 			input[type="submit"].primary:hover,
@@ -2835,8 +2840,8 @@ input, select, textarea {
 
 				#header .logo .symbol img {
 					display: block;
-					width: 2em;
-					height: 2em;
+					/* width: 2em; */
+					height: 5.5em;
 				}
 
 		#header nav {
@@ -3146,7 +3151,7 @@ input, select, textarea {
 
 	#footer {
 		padding: 5em 0 6em 0 ;
-		background-color: #f6f6f6;
+		background-color: #454B66;
 	}
 
 		#footer > .inner {
