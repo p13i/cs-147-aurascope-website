@@ -146,13 +146,12 @@ input, select, textarea {
 		-ms-transition: border-bottom-color 0.2s ease, color 0.2s ease;
 		transition: border-bottom-color 0.2s ease, color 0.2s ease;
 		text-decoration: none;
-		color: #585858;
-		border-bottom: dotted 1px rgba(88, 88, 88, 0.5);
+		color: #454B66 !important;
 	}
 
 		a:hover {
-			border-bottom-color: transparent;
-			color: #f2849e !important;
+			/* background-color: #4EA699; */
+			color: #454B66 !important;
 		}
 
 	strong, b {
@@ -2840,8 +2839,8 @@ input, select, textarea {
 
 				#header .logo .symbol img {
 					display: block;
-					/* width: 2em; */
-					height: 5.5em;
+					width: auto;
+					height: 2em;
 				}
 
 		#header nav {
@@ -3008,8 +3007,9 @@ input, select, textarea {
 				}
 
 					#menu > .inner > ul > li a {
+						color: white !important;
 						display: block;
-						padding: 1em 0;
+						padding: 1em 1em;
 						line-height: 1.5;
 						border: 0;
 						color: inherit;
@@ -3134,18 +3134,6 @@ input, select, textarea {
 		}
 
 /* Main */
-
-	#main {
-		padding: 0em 0 6em 0 ;
-	}
-
-		@media screen and (max-width: 736px) {
-
-			#main {
-				padding: 0em 0 4em 0 ;
-			}
-
-		}
 
 /* Footer */
 
@@ -3312,3 +3300,23 @@ input, select, textarea {
 			}
 
 		}
+
+/* AURASCOPE CUSTOM CSS */
+
+#header ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+#header li {
+	float: left;
+}
+
+#header li a {
+	display: block;
+	text-align: center;
+	padding: 16px;
+	text-decoration: none;
+}
